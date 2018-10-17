@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chatroom</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/queries.css">
+	<link rel="shortcut icon" href="image/#" type="image/png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<section class="bgGreen">
+		<div class="container">
+			<div class="row">
+				<div class="login">
+					<div id="mydiv">
+						 <div id="mydivheader"><h3><h3></div>
+						 <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading">Member Login</h2>
+      <p>
+    you can login with your Donamix account or enter as a Guest
+   </p>
+      <div class="input-group">
+      	 <span class="input-group-addon "  id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+      	<input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      </div>
+      <div class="input-group">
+      	 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+     </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+       <div class="text-center"><span>or</span></div>
+      <div class="col-md-6 col-xs-12 "><button class="btn btn-default facebook" type="button"> 
+      	<i class="fa fa-facebook"></i> Facebook Login</button></div>
+       <div class="col-md-6 col-xs-12"><button class="btn btn-default google" type="button">
+       	<i class="fa fa-google-plus"></i> Google+ login</button></div> 
+       	 <div class="text-center"><span>Guest Login</span></div>
+         <div class="input-group">
+      	 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+        <input type="text" class="form-control" name="password" placeholder="Type your chat username" required=""/>      
+       </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Enter as a Guest</button>
+       <span class="psw" style="float: left;"><a href="" style=" color: #807777;text-decoration: none;">Register your name</a></span>
+      <span class="psw" style="float: right;" ><a href="" style="color: #807777;text-decoration: none;">Forgot password?</a></span>
+    </form>
+  </div>
+						</div>
+				</div>
+				<div class="columnLeft ">
+					<div class="contactos user" style="
+                          overflow: hidden; background: #4285F4">
+						<div style="background: #4285F4;border: 0px">
+							<img src="image/raymi.jpg" alt="">
+							<div class="info" >
+								
+								<p class="hora" style="color: #F2F7FE">
+                                     <span class="active-users" style="color: #F2F7FE">15 users</span> 
+								<img src="icon/Icon_credits.png" alt="">320 Credits
+							   </p>
+								
+								<p style="color: #F2F7FE"><b>Jassica Richard Kate</b></p>
+								<p class="detalle" style="color: #F2F7FE">status:Avallable
+
+									<img src="icon/TRUE.png" alt="" class="true">
+								</p>
+
+							</div>
+						</div>
+					</div>
+						<div class="searchbox">
+						<div class="col-md-8 col-xs-12">
+						<form action="search">
+							<span class="icon-search"></span>
+							<input id="input-1"type="text" placeholder="search here">
+						</form>
+					</div>
+
+						<div class="leftIcons">
+							<div class="col-md-2"><a href=""><span class="icon-message"></span></a></div>
+							<div class="col-md-2 col-xs-12">
+							<div class="dropdown">
+								<span class="icon-dots-three-vertical" id="set"  data-toggle="dropdown"></span>
+								 <ul class="dropdown-menu" aria-labelledby="set">
+								 	<span class="triangle-up"></span>
+							    <li><a href="#">My Account</a></li>
+							    <li><a href="#">Change Avatar</a></li>
+							  </ul>
+							 </div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="rooms" >
+			          <div class="btn-group  btn-group-lg" role="group" aria-label="...">
+						  <button type="button" class="btn btn-default " ><a href="index.html">Users</a></button>
+						  <button type="button" class="btn btn-default "><a href="rooms.html">All rooms</a></button>
+						  <button type="button" class="btn btn-default "><a href="">status</a></button>
+						</div>
+					</div>
+					<div class="contactos">
+						<div >
+							<span class="status active"></span>
+							<img src="image/logocodeacademy.png" alt="">
+							<div class="info">
+								<p class="hora">
+									<img src="icon/admin-icon.png" alt="">
+									<img src="icon/gander-img-boy.png" alt=""><br>
+								  Available
+							   </p>
+								<p><b><a href="">Admin</a></b></p>
+								<p class="detalle">is Live now
+									<img src="icon/webcam (2).png" alt="">
+									<img src="icon/microphone.png" alt="">
+								</p>
+							</div>
+						</div>
+						<div >
+							<span class="status active"></span>
+							<img src="image/raymi.jpg" alt="">
+							<div class="info">
+								<p class="hora">
+									<img src="icon/moderator-icon.png" alt="">
+									<img src="icon/gander-img-girl.png" alt=""><br> Available
+								</p>
+								<div class="dropdown">
+  <a class=" dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+   moderator_sara
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+  	<span class="triangle-up"></span>
+    <li><a href="#"><img src="icon/Layer 0.png">private Message</a></a></li>
+    <li><a href="#"><img src="icon/topcmm-123flashchat-light-color-panel-view-profile-icon.png">View Profile</a></li>
+    <li><a href="#"><img src="icon/block.png">Block</a></li>
+  
+    <li><a href="#"><img src="icon/menu-icon.png">Chat Rules</a></li>
+    <li><a href="#"><img src="icon/menu-icon.png">Forums</a></li>
+  </ul>
+</div>
+								<p class="detalle">Active now
+
+								</p>
+							</div>
+						</div>
+						<div>
+							<span class="status lastActive"></span>
+							<img src="image/mariana.jpg" alt="">
+							<div class="info">
+								<p class="hora">
+									<img src="icon/#" alt="">
+									<img src="icon/gander-unknown-img.png" alt=""><br> Away
+								</p>
+								<p><b><a href="">DJ_Blazer</a></b></p>
+								<p class="detalle">is Brodcasting on radio</p>
+							</div>
+						</div>
+						<div>
+							<span class="status active"></span>
+							<img src="image/anamaria.jpg" alt="">
+							<div class="info">
+								<p class="hora">
+									<img src="icon/#" alt="">
+									<img src="icon/gander-img-boy.png" alt="">
+									<br> Available
+								</p>
+								<p><b>Casper</b></p>
+								<p class="detalle">
+								is typing<img src="icon/userlist-typing.png" alt=""></p>
+							</div>
+						</div>
+						<div>
+							<span class="status lastActive"></span>
+							<img src="image/rodulfo.jpg" alt="">
+							<div class="info">
+								<p class="hora">
+									<img src="icon/gander-img-boy.png" alt="">
+									<br> Away
+								</p>
+								<p><b>guest</b></p>
+								<p class="detalle">last active 15 min ago</p>
+							</div>
+						</div>
+						<div>
+							<span class="status disturb"></span>
+							<img src="image/andrea.jpg" alt="">
+							<div class="info">
+								<p class="hora">
+									
+									<img src="icon/gander-img-boy.png" alt=""><br> Busy
+								</p>
+								<p><b>Annabelle Payton</b></p>
+								<p class="detalle">Do Not disturb</p>
+							</div>
+						</div>
+						<div>
+							<img src="image/mariapaula.jpg" alt="">
+							<div class="info">
+								<p class="hora">20:05</p>
+								<p><b>Maria Paula Rivarola</b></p>
+								<p class="detalle">lo revisaste?</p>
+							</div>
+						</div>
+						<div >
+							<img src="image/katy.jpg" alt="">
+							<div class="info">
+								<p class="hora">10:05</p>
+								<p><b>Katy Sanchez</b></p>
+								<p class="detalle">...la invitación que te mandé</p>
+							</div>
+						</div>
+						<div >
+							<img src="image/aldo.jpg" alt="">
+							<div class="info">
+								<p class="hora">03:05</p>
+								<p><b>Aldo Alfaro</b></p>
+								<p class="detalle">...Metal for life</p>
+							</div>
+							
+						</div>
+							<div >
+							<img src="image/aldo.jpg" alt="">
+							<div class="info">
+								<p class="hora">03:05</p>
+								<p><b>Aldo Alfaro</b></p>
+								<p class="detalle">...Metal for life</p>
+							</div>
+							
+						</div>
+							<div>
+							<img src="image/aldo.jpg" alt="">
+							<div class="info">
+								<p class="hora">03:05</p>
+								<p><b>Aldo Alfaro</b></p>
+								<p class="detalle">...Metal for life</p>
+							</div>
+							
+						</div>
+							<div>
+							<img src="image/aldo.jpg" alt="">
+							<div class="info">
+								<p class="hora">03:05</p>
+								<p><b>Aldo Alfaro</b></p>
+								<p class="detalle">...Metal for life</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="columnRight">
+					<div class="contacto">
+						<div class="col-md-6 col-xs-12">
+							<p style="color: #000;"><b>You are Chatting In international room</b></p>
+							 <span>10:30 PM (United State)</span>
+							</div>
+								<div class="col-md-6 col-xs-12">
+									<div class="info icon">
+											<div class="dropdown cog">
+												<span id="dropdownCog" data-toggle="dropdown" >
+													<img src="icon/Settings.png" style="width: 20px;height: 20px"></img></span>
+											 <ul class="dropdown-menu" aria-labelledby="dropdownCog">
+											    <li><a href="#"><img src="icon/logout-icon.png">Logout</a></li>
+											    <li><a href="#"><img src="icon/setting-panel-option-icon.png">Options</a></li>
+											    <li><a href="#"><img src="icon/block.png">Blocked users</a></li>
+											    <li><a href="#"><img src="icon/clear-screen-icon.png">clear Screen</li>
+											    <li><a href="#"><img src="icon/exit-room-icon.png">Exit</a></li>
+											  </ul>
+											</div>
+										<a href=""><span ><img src="icon/Webcam.png" style="width: 20px;height: 20px"></span></a>
+										<a href=""><span ><img src="icon/Apple store.png" style="width: 20px;height: 20px"></span></a>
+										<a href=""><span ><img src="icon/android.png" style="width: 20px;height: 20px"></span></a>
+									</div>
+							</div>
+					</div>
+					<p style="color: #000;font-weight: 500!important"><img src="icon/volum.png" style="    width: 10px; height: 10px;"><b>Welcom to Roomname Enjoy Your Stay</b></p>
+				<div class="chat">
+						<div class="row">
+							<div class="col-lg-6">
+                              <div class="col-md-2">
+                              	   <img src="image/Layer1.png">
+                              </div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName1">Andrea Lamas</p>
+									<p class="detalle">Chicos, han visto el nuevo corte de Aldo?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/layer1.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/layer1.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-offset-6 col-lg-6">
+								
+								<div class="col-md-10">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+								<div class="col-md-2">
+									<img src="image/Layer2.png">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-offset-6 col-lg-6">
+								
+								<div class="col-md-10">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+								<div class="col-md-2">
+									<img src="image/Layer2.png">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/Layer3.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/Layer2.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/Layer1.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="col-md-2">
+									<img src="image/layer1.png">
+								</div>
+								<div class="col-md-9">
+									<span class="chatboxContact">
+									<p class="chatName2">Mariana Costa</p>
+									<p class="detalle">¿Finalmente se lo cortó?</p>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text">
+						<div class="row">
+							<div class="col-xs-1">
+								<span class="icon-insert_emoticon"></span>
+								<div id="emoticons">
+									<div class="tabs">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-10.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-01.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-02.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-03.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-04.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-05.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-06.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-07.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-08.png" alt="">
+										<img class="minIcon" src="image/Emoji Smiley/Emoji Smiley-09.png" alt="">
+									</div>
+									<div class="tabs">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-01.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-02.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-03.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-04.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-05.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-06.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-07.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-08.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-09.png" alt="">
+										<img class="minIcon" src="image/Emoji Nature/Emoji Natur-10.png" alt="">
+									</div>
+									<div class="tabs">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-01.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-02.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-03.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-04.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-05.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-06.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-07.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-08.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-09.png" alt="">
+										<img class="minIcon" src="image/Emoji Places/Emoji Orte-10.png" alt="">
+									</div>
+									<div class="tabs">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-01.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-02.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-03.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-04.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-05.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-06.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-07.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-08.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-09.png" alt="">
+										<img class="minIcon" src="image/Emoji Objects/Emoji Objects-10.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-10">
+								<div id="inputChat" contenteditable="true" type="text">
+									Type your message here
+								</div>
+							</div>
+							<div class="col-xs-1">
+								<span id='action' class="icon-mic"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/whatsapp.js"></script>
+</body>
+</html>

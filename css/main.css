@@ -1,0 +1,408 @@
+body {
+  background: #DFDFDF;
+  height: 100vh; }
+  body b {
+   font-weight: bold }
+  body p {
+    line-height: 1;
+    margin: 0 0 5px; }
+  body .bgGreen {
+   
+    height: 0px; }
+    body a{
+          cursor: pointer;
+    }
+   body ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #B3CEFB;
+    opacity: 1; /* Firefox */
+}
+
+body:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #B3CEFB;
+}
+
+body::-ms-input-placeholder { /* Microsoft Edge */
+    color:  #B3CEFB;
+}
+  body img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 5px; }
+  body .container {
+    padding: 1% 7%; }
+    body .container .columnLeft {
+      width: 41.5%;
+      box-shadow: 0px 4px 5px #c9c9c9;
+      float: left;
+      border: 1px solid #DADADA;
+      height: 95vh !important;
+      display: inline-block; }
+      body .container .columnLeft .user {
+        height: 8vh !important;
+        background: #EEEEEE;
+        padding: 10px; }
+        body .container .columnLeft .user span {
+          float: right;
+          color: #767576;
+          font-size: 20px;
+          margin-top: 10px; }
+      body .container .columnLeft .user .active-users {display: inherit;
+    margin-left: 30px;
+    font-size: 14px;
+    float: none;
+    color: #888;}
+      body .container .columnLeft .searchbox {
+        height: 8vh !important;
+        background: #3367D6;
+        padding: 10px;
+        border-bottom: 1px solid #CDCDCD; }
+        body .container .columnLeft .searchbox form {
+          color: #c9c9c9;
+          display: inline-block;
+         
+        
+          background: #3367d6;
+          padding: 10px; 
+          width: 70%
+        }
+          body .container .columnLeft .searchbox form input {
+            margin-left: 35px;
+    border: none;
+    
+    padding: 5px;
+
+    color: #888; }
+     body .container .columnLeft .searchbox form input[type="text"]{background: #3367D6}
+              body .container .columnLeft .leftIcons{display: inline-block;width: 25%;float: right;
+    margin-top: 18px}
+            body .container .columnLeft .leftIcons span {float: right; color: #eee; margin-left: 25px; font-size: 22px;}
+     body .leftIcons .dropdown-menu {top: 28px}
+   body .leftIcons .triangle-up{position: absolute;top: -24px;
+    right: 54px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    /* background-color: white; */
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 24px solid #e4e1e1;
+}
+body .contactos .triangle-up {
+  position: absolute;
+    top: -13px;
+    right: 82px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 14px solid #000;
+}
+body .contactos .dropdown-menu{
+      background-color: #000;
+    opacity: 0.8;
+}
+  body .contactos .dropdown-menu>li>a {color: #eee}
+   body .contactos .dropdown-menu>li>a:hover {color: #000}
+          body .container .columnLeft .searchbox form span {
+            font-size: 13px;
+            display: inline-block;
+                position: absolute;color: #eee;
+    font-size: 20px;
+    padding: 5px; }
+    body .rooms .btn-group{width: 102%}
+      body .rooms .btn {width:33%;border:0px;color: #888 }
+      body .rooms .btn:hover{border-bottom: 2px solid #4285F4;border-radius: 0px} 
+      body .container .columnLeft .contactos {
+        height: 73vh !important;
+       overflow-y: scroll; }
+        body .container .columnLeft .contactos > div {
+          background: white;
+          padding: 10px;
+          border-bottom: 1px solid #CDCDCD;
+          transition: all 0.3s ease-in; }
+          body .container .columnLeft .contactos > div:hover {
+            background: #d5ebf4; }
+           body .container .columnLeft .contactos .status{
+                  width: 10px;
+                 height: 10px;
+                z-index: 999;
+                display: block;
+                position: inherit;
+                border-radius: 50%;
+                margin-left: 30px;
+                border: 1px solid #fff;
+            }
+             body .container .columnLeft .contactos .active{ background: green;}
+              body .container .columnLeft .contactos .lastActive{ background: yellow;}
+               body .container .columnLeft .contactos .disturb{ background: red;}
+        body .container .columnLeft .contactos .info {
+          width: 85%;
+          vertical-align: middle;
+          display: inline-block; }
+          body .container .columnLeft .contactos .info img {
+            display: inline-block;width: 13px;height: 14px; margin:6px; }
+          body .container .columnLeft .contactos .info .hora {
+            float: right;color: #888888; }
+          body .container .columnLeft .contactos .info .detalle {
+            font-size: 14px;
+            color: #827287; }
+           body .container .user .info .true  {    background: green;
+    width: 10px;
+    height: 10px;
+    border: 3px solid green;}
+    body .container .columnRight {
+      height: 95vh !important;
+      float: left;
+      border: 1px solid #DADADA;
+      height: auto;
+      display: inline-block;
+      background: #EDEAE5;
+      width: 58.3%;
+      box-shadow: 4px 4px 5px -4px #c9c9c9; }
+      body .container .columnRight .contacto {
+        height: 6vh !important;
+        width: 100%;
+        padding: 10px;
+        background: #EEEEEE; }
+        body .container .columnRight .contacto img {
+          display: inline-block; }
+        body .container .columnRight .contacto .info {
+          display: inline-block;
+          width: 90%; }
+         body .container .cog .dropdown-menu {
+    position: absolute;
+    top: 36px;
+    left: 135px;}
+   body .container .cog .dropdown-menu img {
+          width: 10px;
+    height: 10px;
+    }
+          body .container .columnRight .contacto .info span {
+            float: right;
+            color: #767576;
+            font-size: 20px;
+            margin-top: 10px; }
+          body .container .columnRight .contacto .info .detalle {
+            font-size: 14px;
+            color: #AAAAAA !important; }
+      body .container .columnRight .chat {
+        width: 100%;
+        overflow: auto;
+        height: 75vh !important;
+        padding: 20px;
+        background: url(../image/chat-panel-bg.png);
+        background-size: cover; }
+        body .container .columnRight .chat .chatName1 {
+          color: #84C5DF; }
+        body .container .columnRight .chat .chatName2 {
+          color: #CB6CA0; }
+        body .container .columnRight .chat .chatName3 {
+          color: #61B495; }
+        body .container .columnRight .chat .chatName4 {
+          color: #CAAF6B; }
+        body .container .columnRight .chat .chatboxContact {
+          border-radius: 5px;
+          border: 1px solid #EDEDED;
+          margin-bottom: 2px;
+          background: white;
+          padding: 10px;
+          max-width: 100%;
+          display: inline-block; }
+          body .container .columnRight .chat .chatboxContact .detalle {
+            font-size: 14px;
+            color: #767576 !important; }
+        body .container .columnRight .chat .chatboxUser {
+          border-radius: 5px;
+          border: 1px solid #EDEDED;
+          margin-bottom: 2px;
+          background: white;
+          padding: 10px;
+          background: #DEF7C7;
+          text-align: right;
+          float: right;
+          max-width: 100%;
+          display: inline-block; }
+          body .container .columnRight .chat .chatboxUser .detalle {
+            font-size: 14px;
+            color: #767576 !important; }
+        body .container .columnRight .chat .hora-chat {
+          font-size: 10px; }
+      body .container .columnRight .text {
+        height: 10vh !important;
+        padding: 10px;
+        background: #F0F0F0; }
+        body .container .columnRight .text span {
+          color: #AAAAAA;
+          font-size: 20px;
+          margin-top: 10px;
+          font-size: 30px;
+          display: inline-block; }
+        body .container .columnRight .text #inputChat {
+          color: #c9c9c9;
+          display: inline-block;
+          border-radius: 5px;
+          border: 1px solid #EDEDED;
+          margin-left: 10px;
+          border: none;
+          width: 98%;
+          background: white;
+          padding: 10px; }
+        body .container .columnRight .text #emoticons {
+          width: 250px;
+          height: 250px;
+          overflow-y: auto;
+          position: relative;
+          top: -280px;
+          background: #F0F0F0;
+          visibility: hidden;
+          margin-bottom: -250px; }
+          body .container .columnRight .text #emoticons img {
+            width: 25px;
+            height: 25px; }
+          body .container .columnRight .text #emoticons .tabs {
+            width: 250px;
+            height: 250px;
+            overflow-y: auto;
+            display: inline; }
+        body .container .columnRight .text .icon-insert_emoticon {
+          cursor: pointer; }
+        body .container .columnRight .text .minIcon {
+          width: 20px;
+          height: 20px; }
+        body .container .columnRight .text #action {
+          position: relative;
+          right: 25px; }
+
+/*# sourceMappingURL=main.css.map */
+
+/*allromms*/
+body .all-rooms .room {
+  height: 6vh;
+  cursor: pointer;
+}
+body .contactos .all-rooms:hover{background: #fff!important;}
+body .contactos .all-rooms .room:hover{background:#3367D6 }
+body .contactos .all-rooms .room:hover p{color: #fff;font-weight: bold} 
+body .contactos .all-rooms .room:hover img{border-radius:50%;transition: .5s;}
+body .contactos .all-rooms .room img {border-radius:0px;width:50px  }
+body .contactos .all-rooms .room p{    color: #3367d6;padding: 15px;margin-bottom: 0;}
+    
+/*login*/
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+     width: 500px;
+      background-color: #0c0c0c;
+       opacity: 0.7;
+       border-radius: 71px;
+   /*    top: 100px;
+    right: 700px;*/
+}
+
+#mydivheader {
+    padding: 47px;
+    cursor: move;
+    z-index: 10;
+      
+    color: #fff;
+     opacity: 0.7;
+
+}
+.wrapper {  
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 23px;  
+}
+.form-signin h3 ,.form-signin p{
+  color: #888
+}
+  .form-signin-heading,
+ 
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+.input-group{
+      margin: 5px 0px 10px;
+}
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+.btn-block {
+ 
+}
+.btn-primary{
+  background: #000;
+   border-radius:3px;
+   margin: 15px 0;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3367d6;
+    border-color: #4285f4;
+}
+
+.facebook:hover {
+    opacity: 0.8;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+   border-radius:3px;
+   margin-top: 15px;
+   margin-bottom: 15px
+}
+.google {
+  background: #dd4b39;
+  color: white;
+   border-radius:3px;
+   margin-top: 15px;
+   margin-bottom: 15px
+}
+
+/* Extra small devices (phones, 600px and down) */
+ body .container .columnLeft .user {
+    height: 125px!important
+  }
+@media (min-width: 400px) {
+  body .container .columnLeft .user {
+    height: 120px!important
+  }
+  body .container .columnLeft .searchbox{
+
+  }
+}
